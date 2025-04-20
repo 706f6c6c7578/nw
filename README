@@ -1,4 +1,7 @@
+$ nw -h
 Usage of nw:
+  -batch int
+        Maximum batch size for XOVER command (default 500)
   -days int
         Download articles from last N days (0 for all) (default 1)
   -group string
@@ -13,6 +16,8 @@ Usage of nw:
         SOCKS proxy (e.g., 127.0.0.1:9050)
   -server string
         NNTP server address (default "news.tcpreset.net")
+  -timeout int
+        Read timeout in seconds (default 1200)
   -tls
         Use TLS connection
   -user string
